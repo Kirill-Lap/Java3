@@ -1,0 +1,2 @@
+The Intel Proprietary License applies to all files on this product unless
+there is another license in the same folder as a file or files. 
