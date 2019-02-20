@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArrayMethods {
+
+
     public int[] method1(Integer[] arr, Integer marker) throws RuntimeException {
         ArrayList<Integer> al = new ArrayList<>();
         al.addAll(Arrays.asList(arr));
@@ -22,6 +24,8 @@ public class ArrayMethods {
         }
         return res;
     }
+
+
 
     public boolean method2(Integer[] data, Integer marker1, Integer marker2) {
         return Arrays.asList(data).contains(marker1) && Arrays.asList(data).contains(marker2);
