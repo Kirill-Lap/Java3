@@ -6,8 +6,10 @@ import org.junit.Test;
 
 
 public class TestArray {
-    ArrayMethods am;
-    Integer[] testData;
+
+    private ArrayMethods am;
+    private Integer[] testData;
+
 
     @Before
     public void init(){
